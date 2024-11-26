@@ -34,7 +34,6 @@ $(document).ready(function() {
                     $(this).text(ukText);
                 }
             }
-            // Додайте інші мови за необхідності
         });
     });
 
