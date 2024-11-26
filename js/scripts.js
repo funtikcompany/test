@@ -45,7 +45,7 @@ $(document).ready(function() {
     });
 
     $(window).on('scroll', function() {
-        if ($(window).scrollTop() > 50) { // Ви можете змінити значення за необхідності
+        if ($(window).scrollTop() > 50) {
             $('.navbar').addClass('sticky-active');
         } else {
             $('.navbar').removeClass('sticky-active');
