@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Приклад кастомних стилів, можна розширити за необхідності */
+
+body {
+    scroll-behavior: smooth;
+}
+
+header  {
+    z-index: 1030; 
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+#form-message {
+    font-weight: bold;
+}
+
+
+/* styles.css */
+
+/* Інші ваші стилі */
+
+#imageCarousel {
+    height: 300px; /* Встановлюємо висоту каруселі */
+    overflow: hidden; /* Ховаємо частини зображень, що виходять за межі */
+}
+
+#imageCarousel .carousel-inner,
+#imageCarousel .carousel-item,
+#imageCarousel .carousel-item img {
+    height: 300px; /* Забезпечуємо, щоб всі частини каруселі мали однакову висоту */
+}
+
+#imageCarousel .carousel-item img {
+    object-fit: cover; /* Масштабуємо зображення, щоб вони заповнювали контейнер без спотворень */
+    width: 100%;
+    height: 100%;
+}
